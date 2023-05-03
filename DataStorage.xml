@@ -1,0 +1,35 @@
+<?xml veersion="1.0" encoding="UTF-8"?>
+
+<catalog>
+
+<types>
+    <type name="Квартиры" count="7">
+    <flat rooms="1" price="45.000" square="42.5"></flat>
+    <flat rooms="1" price="37.000" square="37.4"></flat>
+    <flat rooms="1" price="32.000" square="34.9"></flat>
+    <flat rooms="1" price="41.000" square="40.2"></flat>
+    <flat rooms="2" price="38.000" square="44.1"></flat>
+    <flat rooms="2" price="47.000" square="55.8"></flat>
+    <flat rooms="3" price="51.000" square="73.2"></flat>
+    </type>
+
+    <type name="Дома и участки"  count="6">
+    <house floors="2" price="110.000" square="183.4"></house>
+    <house floors="2" price="89.000" square="235.0"></house>
+    <house floors="1" price="26.500" square="58.6"></house>
+    <house floors="2" price="125.400" square="182.6"></house>
+    <house floors="1" price="35.000" square="78.3"></house>
+    <house floors="2" price="169.000" square="234.8"></house>
+    </type>
+
+    <type name="Коммерческая недвижимость" count="4">
+    <office price="38.300" square="42.3">
+    <office price="89.000" square="206.1">
+    <office price="45.900" square="67.3">
+    <office price="19.400" square="74.4">
+    </type>
+
+    
+</types>
+
+</catalog>

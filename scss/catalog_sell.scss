@@ -1,0 +1,101 @@
+main{
+    background-color: #eaeaea80;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    div.flex-cont{
+        margin: 50px 0 30px 0;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .offers{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:flex-start;
+            align-items: flex-start;
+            >div:hover{
+                box-shadow: 0 0 40px 10px rgb(180, 180, 180);
+            }
+            div{
+                padding: 15px 15px 15px 15px;
+                width: 360px;
+                height: 300px;
+                background: #ececec;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 15px;
+                margin: 20px auto 20px auto;
+                h4{
+                    margin: 5px 0 5px 0;
+                }
+                p{
+                    margin: 2.5px 0 2.5px 0;
+                    float: left;
+                }
+                ul{
+                    position: relative;
+                    right: 40px;
+                    margin: 0 0 0 0;
+                    li:nth-child(2){
+                        margin: 5px 0 5px 0;
+                        color: #848484;
+                    }
+                    li{
+                        list-style-type: none;
+                    }
+                }
+            }
+        }
+    }
+    .form{
+        margin: 80px 0 80px 0;
+        background: #ececec;
+        padding: 15px 15px 15px 15px;
+        border-radius: 15px;
+        width: 50%;
+        #form{
+            p{
+                display: block;
+                input{
+                    display: block;
+                    width: 200px;
+                    border:1px solid rgb(179, 179, 179) ;
+                    border-radius: 5px;
+                }
+                textarea{
+                    width: 200px;
+                    border:1px solid grey ;
+                    border-radius: 5px;
+                }
+                input:focus,textarea:focus{
+                    outline: none;
+                    border-color: red;
+                    //box-shadow: 0 0 5px black;
+                }
+            }
+
+
+            input[type="submit"]{
+                display: block;
+                background-color: #FA4141;;
+                width: 80px;
+                height: 30px;
+                border-radius: 5px;
+                color: white;
+                border: none;
+                text-align: center;
+            }
+            input[type="submit"]:hover{
+                background-color: #fb1717;
+            }
+            input[type="submit"]:active{
+                background-color: #d32626;
+            }
+        }
+    }
+}

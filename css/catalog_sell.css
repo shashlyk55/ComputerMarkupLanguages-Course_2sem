@@ -1,0 +1,96 @@
+main {
+  background-color: rgba(234, 234, 234, 0.5019607843);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+main div.flex-cont {
+  margin: 50px 0 30px 0;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main div.flex-cont .offers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+main div.flex-cont .offers > div:hover {
+  box-shadow: 0 0 40px 10px rgb(180, 180, 180);
+}
+main div.flex-cont .offers div {
+  padding: 15px 15px 15px 15px;
+  width: 360px;
+  height: 300px;
+  background: #ececec;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 20px auto 20px auto;
+}
+main div.flex-cont .offers div h4 {
+  margin: 5px 0 5px 0;
+}
+main div.flex-cont .offers div p {
+  margin: 2.5px 0 2.5px 0;
+  float: left;
+}
+main div.flex-cont .offers div ul {
+  position: relative;
+  right: 40px;
+  margin: 0 0 0 0;
+}
+main div.flex-cont .offers div ul li:nth-child(2) {
+  margin: 5px 0 5px 0;
+  color: #848484;
+}
+main div.flex-cont .offers div ul li {
+  list-style-type: none;
+}
+main .form {
+  margin: 80px 0 80px 0;
+  background: #ececec;
+  padding: 15px 15px 15px 15px;
+  border-radius: 15px;
+  width: 50%;
+}
+main .form #form p {
+  display: block;
+}
+main .form #form p input {
+  display: block;
+  width: 200px;
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 5px;
+}
+main .form #form p textarea {
+  width: 200px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+main .form #form p input:focus, main .form #form p textarea:focus {
+  outline: none;
+  border-color: red;
+}
+main .form #form input[type=submit] {
+  display: block;
+  background-color: #FA4141;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  text-align: center;
+}
+main .form #form input[type=submit]:hover {
+  background-color: #fb1717;
+}
+main .form #form input[type=submit]:active {
+  background-color: #d32626;
+}

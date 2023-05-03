@@ -1,0 +1,25 @@
+main {
+  width: 100%;
+}
+main div.flex-cont {
+  margin: 50px 0 30px 0;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main div.flex-cont .offers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+main div.flex-cont .offers div {
+  width: 260px;
+  height: 400px;
+  margin: 20px 18px 20px 18px;
+}
+main .form {
+  width: 95%;
+}

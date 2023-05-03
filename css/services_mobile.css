@@ -1,0 +1,70 @@
+main {
+  background-color: rgba(234, 234, 234, 0.5019607843);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+main h2 {
+  text-align: center;
+}
+main div.container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main div.container > div {
+  background: #ececec;
+  width: 220px;
+  height: 115px;
+  border: none;
+  border-radius: 15px;
+  margin: 20px 20px 20px 20px;
+  padding: 0px 15px 15px 15px;
+}
+main div.container > div h4 {
+  color: black;
+}
+main div.container > div h5 {
+  color: #848484;
+}
+main div.container > div:hover {
+  background-color: #dedbdb;
+  box-shadow: 0 0 40px 10px rgb(180, 180, 180);
+}
+main #sell, main #buy {
+  margin-top: 80px;
+  width: 95%;
+}
+main #sell #container, main #buy #container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #sell #container > div, main #buy #container > div {
+  background: #ececec;
+  width: 90%;
+  height: auto;
+  border: none;
+  border-radius: 15px;
+  margin: 20px 10px 20px 10px;
+  padding: 15px 15px 15px 15px;
+  text-decoration: none;
+}
+main #sell #container > div p, main #buy #container > div p {
+  color: #848484;
+}
+main #escort {
+  margin: 80px 0 80px 0;
+}
+main #escort ul {
+  list-style-image: url("/material/galochka.png");
+}
+main #escort ul li {
+  margin-top: 10px;
+}
