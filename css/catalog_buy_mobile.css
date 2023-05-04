@@ -71,6 +71,7 @@ main div.container div.offers div div ul li {
 main div.container div.offers div .hidden {
   display: none;
   color: #848484;
+  padding: 0 15px 0 15px;
 }
 main div.container div.offers > div:hover {
   box-shadow: 0 0 40px 10px rgb(180, 180, 180);

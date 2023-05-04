@@ -1,35 +1,112 @@
 <?xml veersion="1.0" encoding="UTF-8"?>
 
 <catalog>
-
-<types>
-    <type name="Квартиры" count="7">
-    <flat rooms="1" price="45.000" square="42.5"></flat>
-    <flat rooms="1" price="37.000" square="37.4"></flat>
-    <flat rooms="1" price="32.000" square="34.9"></flat>
-    <flat rooms="1" price="41.000" square="40.2"></flat>
-    <flat rooms="2" price="38.000" square="44.1"></flat>
-    <flat rooms="2" price="47.000" square="55.8"></flat>
-    <flat rooms="3" price="51.000" square="73.2"></flat>
-    </type>
-
-    <type name="Дома и участки"  count="6">
-    <house floors="2" price="110.000" square="183.4"></house>
-    <house floors="2" price="89.000" square="235.0"></house>
-    <house floors="1" price="26.500" square="58.6"></house>
-    <house floors="2" price="125.400" square="182.6"></house>
-    <house floors="1" price="35.000" square="78.3"></house>
-    <house floors="2" price="169.000" square="234.8"></house>
-    </type>
-
-    <type name="Коммерческая недвижимость" count="4">
-    <office price="38.300" square="42.3">
-    <office price="89.000" square="206.1">
-    <office price="45.900" square="67.3">
-    <office price="19.400" square="74.4">
-    </type>
-
-    
-</types>
-
+    <flats count="7">
+        <flat>
+            <name>1-комнатная квартира</name>
+            <price>45.000$</price>
+            <adres>ул.Кальварийская д.43</adres>
+            <square>42.5 кв.м</square>
+        </flat>
+        <flat>
+            <name>2-комнатная квартира</name>
+            <price>38.000$</price>
+            <adres>ул.Червякова д.6</adres>
+            <square>44.1 кв.м</square>
+        </flat>
+        <flat>
+            <name>1-комнатная квартира</name>
+            <price>32.000$</price>
+            <adres>ул.Кирова д.31</adres>
+            <square>34.9 кв.м</square>
+        </flat>
+        <flat>
+            <name>1-комнатная квартира</name>
+            <price>41.000$</price>
+            <adres>ул.Красноармейская д.34</adres>
+            <square>40.2 кв.м</square>
+        </flat>
+        <flat>
+            <name>3-комнатная квартира</name>
+            <price>51.000$</price>
+            <adres>ул.Серафимовича д.8</adres>
+            <square>73.2 кв.м</square>
+        </flat>
+        <flat>
+            <name>2-комнатная квартира</name>
+            <price>47.000$</price>
+            <adres>пр.Победителей д.39</adres>
+            <square>55.8 кв.м</square>
+        </flat>
+        <flat>
+            <name>1-кмонатная квартира</name>
+            <price>37.000$</price>
+            <adres>ул.Куприянова д.9</adres>
+            <square>37.4 кв.м</square>
+        </flat>
+    </flats>
+    <houses count="6">
+        <house>
+            <name>Дом</name>
+            <price>125.400$</price>
+            <adres>ул.М. Богдановича д.5</adres>
+            <square>182.6 кв.м</square>
+        </house>
+        <house>
+            <name>Дом в п.Колодищи</name>
+            <price>26.500$</price>
+            <adres>п.Колодищи ул.Солнечная д.23</adres>
+            <square>58.6 кв.м</square>
+        </house>
+        <house>
+            <name>Дом в пригороде Минска</name>
+            <price>169.000$</price>
+            <adres>ул.Зацень д.30А</adres>
+            <square>234.8 кв.м</square>
+        </house>
+        <house>
+            <name>Дом</name>
+            <price>35.000$</price>
+            <adres>ул.Огородницкая д.36</adres>
+            <square>78.3 кв.м</square>
+        </house>
+        <house>
+            <name>Дом в п.Колодищи</name>
+            <price>89.000$</price>
+            <adres>ул.Золотая д.3</adres>
+            <square>235 кв.м</square>
+        </house>
+        <house>
+            <name>Дом в пригороде Минска</name>
+            <price>110.000$</price>
+            <adres>ул.Школьная д.41</adres>
+            <square>183.4 кв.м</square>
+        </house>
+    </houses>
+    <offices count="4">
+        <office>
+            <name>Офис</name>
+            <price>49.400$</price>
+            <adres>ул.Маяковского д.31</adres>
+            <square>74.4 кв.м</square>
+        </office>
+        <office>
+            <name>Офис</name>
+            <price>89.000$</price>
+            <adres>пр.Независимости д.11</adres>
+            <square>206.1 кв.м</square>
+        </office>
+        <office>
+            <name>Офис</name>
+            <price>38.300$</price>
+            <adres>ул.Маяковского д.31</adres>
+            <square>42.3 кв.м</square>
+        </office>
+        <office>
+            <name>Офис</name>
+            <price>45.900$</price>
+            <adres>ул.Витебская д.21</adres>
+            <square>67.3 кв.м</square>
+        </office>
+    </offices>
 </catalog>
